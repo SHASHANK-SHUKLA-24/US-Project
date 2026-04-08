@@ -1,3 +1,7 @@
+# task4 => create new file and create function which will take a name as a parameter and will check agar bucket s3 per nahi hai toh aapke liye bucket banayega or bucket present hai toh print karega bucket already present
+
+
+
 import boto3
 # boto3 see hum aws service like s3 ya ec2 service access kar sakte hai
 

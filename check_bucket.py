@@ -1,3 +1,7 @@
+# task3=> create new file and create function which will take a bucket name as a parameter and will check if the bucket name is present or not in the s3 when you pass name in the parameter that will be checked
+
+
+
 import boto3
 
 def check_bucket_exists(bucket_name):

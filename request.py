@@ -1,8 +1,10 @@
+# task1 => divide data in chunks
+
 import requests
 # requests ek Python library hai
 # Iska use HTTP request bhejne ke liye hota hai (GET, POST etc.)
 
-url = "https://speed.hetzner.de/100MB.bin"  # working test file
+url = "https://transtats.bts.gov/PREZIP/"  # working test file
 # yaha maine ek 100 mb ki file donload ki hai for testing
 
 response = requests.get(url, stream=True, verify=False)
